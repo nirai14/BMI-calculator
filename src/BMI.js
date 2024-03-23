@@ -73,7 +73,7 @@ setImg("")
         </form>
       
         <div>
-       {height && weight !=0? 
+       {height && weight !==0? 
             <h3 className='value'>Your BMI is:{bmi}</h3>
             :null}
             <p className='message'>{message}</p>
