@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 880px;
+    background: linear-gradient(hwb(0 100% 0%), rgb(46, 226, 247),hwb(0 100% 0%)) no-repeat ;
+width: 50%;
+margin:auto;
+}
+.TITLE{
+    color: rgb(80, 9, 131);
+}
+label{
+    font-weight: 700;
+}
+.enter{
+    margin: auto;
+    width: 50%;
+    justify-content:center;
+}
+input{
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+button{
+    text-align: center; 
+    width: 150px;
+    border-radius: 10px;
+}
+button:hover{
+    border: 2px black solid;
+}
+.cal{
+    background-color: green;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 17px;
+    margin-left: 12px;
+}
+.clear{
+    color: aliceblue;
+    background-color: rgb(82, 79, 79);
+padding: 10px;
+border: none; 
+ font-size: 17px;
+ margin-left: 10px;
+}
+#measure{
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: -30px;
+}
+#num{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+.message,.image,.value{
+    text-align: center;
+}
+form{
+/* background:linear-gradient(rgb(49, 169, 202),rgb(255, 255, 255)); */
+padding: 15px;
+margin-left: 40px;
+border: none;
+box-shadow:2px 2px 2px 2px rgb(158, 158, 158) ;
+}
